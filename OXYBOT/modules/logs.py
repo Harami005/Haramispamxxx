@@ -42,7 +42,7 @@ async def logs(legend):
         fetch = await legend.reply(f"__Fetching Logs...__")
     
         with open("OXYBOTLogs.txt", "w") as logfile:
-            logfile.write("⚡ ™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍 ⚡ [ Bot Logs ]\n\n" + logs)
+            logfile.write("⚡ ™°‌🫧 𝗛𝝙𝗥𝝙𝗠𝗜❌𝗦𝗣𝝙𝗠 ➽ 𝗫❗⚡ [ Bot Logs ]\n\n" + logs)
 
         end = datetime.now()
         ms = (end-start).seconds
